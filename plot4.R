@@ -48,7 +48,7 @@ ggplot(data = data3, aes(x = factor(year), y = `sum(Emissions)`/1000)) +
         geom_col(alpha = 0.8, width = .75, col = "black", lwd = 0.2, 
                  aes(fill = `Mean Emission per\nSource (Tonnes)`)) +
         theme(legend.position = "right") +
-        labs(title = "Total United States Fine Particulate Matter Emissions 1999 - 2008",
+        labs(title = "Total United States Fine Particulate Matter Emissions From Coal 1999 - 2008",
              x = "year", y = expression("PM"[2.5]*" Emissions (1000 Tonnes)")) +
         theme_tufte() +
         geom_rangeframe()
