@@ -48,7 +48,7 @@ ggplot(data = data3, aes(x = factor(year), y =log(Emissions))) +
         geom_rangeframe() +
         guides(fill = FALSE) +
         geom_jitter(alpha = 0.06, width = 0.2) +
-        labs(title = "Fine Particulate Emissions in the Baltimore Area 1999 - 2008 by Source",
+        labs(title = "Fine Particulate Emissions in the Baltimore Area 1999 - 2008 by source",
              x = "year",
              y = expression("(Log) PM"[2.5] * " Emissions"))
 dev.off()

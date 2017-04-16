@@ -44,7 +44,7 @@ png(file.path(getwd(), "plots/plot2.png"), 703, 493, "px")
 par(mfrow = c(1, 1), bg = "white", lwd = 0.2)
 barplot(data3$`sum(Emissions)`, names.arg = data3$year, col=brewer.pal(3, "BuPu"),
         family = "Times")
-title(main = "Fine Particulate Emmisions From Sources In Baltimore City",
+title(main = "Fine Particulate Emmisions From Sources In Baltimore City 1999 - 2008",
       xlab = "year",
       ylab = expression(PM[2.5] * " Emissions (Tonnes)"), family = "Times")
 dev.off()

@@ -54,6 +54,6 @@ ggplot(data3, aes(factor(year), `sum(Emissions)`)) +
         theme_minimal() +
         scale_fill_economist(stata = TRUE) +
         guides(fill = FALSE) +
-        labs(title = "Total Fine Particulate Emissions in Los Angeles and Baltimore\n1999 - 2008",
+        labs(title = "Fine Particulate Emissions in Los Angeles and Baltimore\n1999 - 2008",
              x = "year", y = expression("Total PM"[2.5]*" Emissions (Tonnes)"))
 dev.off()

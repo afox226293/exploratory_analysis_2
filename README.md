@@ -12,17 +12,17 @@ The 6 evaluations are as follows:
 ##### 1
 ![](https://github.com/afox226293/exploratory_analysis_2/blob/master/plot1.png)
 
-The first plot looks at the total emissions (given in millions of tonnes) of fine particualte matter (PM~2.5~) across the United States for 4 individual years (1999, 2002, 2005, 2008) across a ten year period.  The graph shows a year on year decrease of total emissions.  As per the instructions of the project this is produced using base R graphics.
+The first plot looks at the total emissions (given in millions of tonnes) of fine particualte matter (PM2.5) across the United States for 4 individual years (1999, 2002, 2005, 2008) across a ten year period.  The graph shows a year on year decrease of total emissions.  As per the instructions of the project this is produced using base R graphics.
 
 ##### 2
 ![](https://github.com/afox226293/exploratory_analysis_2/blob/master/plot2.png)
 
-The second plot shows the total emissions of fine particulate matter(PM~2.5~) in tonnes over a ten year period by comparing the total emissions from all sources from four years(1999, 2002, 2005, 2008). It shows that overall there has been a decrease over the period however there was an increase between 2002 and 2005.  As per the instructions of the project this is produced using base R graphics.
+The second plot shows the total emissions of fine particulate matter(PM2.5) in tonnes over a ten year period by comparing the total emissions from all sources from four years(1999, 2002, 2005, 2008). It shows that overall there has been a decrease over the period however there was an increase between 2002 and 2005.  As per the instructions of the project this is produced using base R graphics.
 
 ##### 3
 ![](https://github.com/afox226293/exploratory_analysis_2/blob/master/plot3.png)
 
-The third plot looks at the emissions in Baltimore seperated out by the catagory of source (point, nonpoint, onroad, nonroad).  To allow for direct comparison a boxplot is provided measuring the log~10~ of the emissions.  As per the instructions of the project this is produced using ggplot2.
+The third plot looks at the emissions in Baltimore seperated out by the catagory of source (point, nonpoint, onroad, nonroad).  To allow for direct comparison a boxplot is provided measuring the log10 of the emissions.  As per the instructions of the project this is produced using ggplot2.
 
 ##### 4
 ![](https://github.com/afox226293/exploratory_analysis_2/blob/master/plot4.png)
